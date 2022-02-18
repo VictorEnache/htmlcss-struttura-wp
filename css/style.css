@@ -65,13 +65,21 @@ section{
 .section_content{
     float: left;
     background-color: aquamarine;
-    width: 30%;
-    height: 30rem;
 }
 
 main.section_content{
     margin-left: 5%;
     margin-right: 5%;
+}
+
+aside.section_content{
+    width: 20%;
+    height: 30rem;
+}
+
+main.section_content{
+    width: 50%;
+    height: 30rem;
 }
 
 .img{
