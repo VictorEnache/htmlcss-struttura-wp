@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+body{
+    background-color: white;
+    width: 80%;
+    
+    margin: auto;
+}
+
+.site_header{
+    height: 10rem;
+    background-color: rgb(163, 127, 81);
+    margin-bottom: 2%;
+}
+
+.logo{
+    height: 4rem;
+    width: 20%;
+    background-color: aqua;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+}
+
+.site_menu{
+    background-color: rgb(20, 48, 48);
+}
+
+.link{
+    float: left;
+    width: 10%;
+    height: 1rem;
+    background-color: brown;
+    margin-left: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+section{
+    height: 30rem;
+    background-color: blue;
+    margin-bottom: 2%;
+}
+
+.leadership{
+    height: 8rem;
+    background-color: rgb(97, 85, 85);
+    margin-bottom: 2%;
+}
+
+.content{
+
+}
+
+.section_content{
+    float: left;
+    background-color: aquamarine;
+    width: 30%;
+    height: 30rem;
+}
+
+main.section_content{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.img{
+    height: 14rem;
+    background-color: black;
+    margin-bottom: 1rem;
+}
+
+.text{
+height: 15rem;
+background-color: coral;
+
+}
+
+footer{
+    height: 5rem;
+    background-color: brown;
+}
